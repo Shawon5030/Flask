@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Warp</title>
+</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #266b9f;
+    }
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+    }
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    input[type="text"],
+    input[type="number"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #bd157a;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #eb0292;
+
+
+
+    }
+    .name{
+
+        color: #234e68;
+    }
+
+</style>
+<body>
+    <form method="post" action="/">
+        <label for="warp_client_id" style="color: #007bff;">Warp Client ID:</label>
+        <input type="text" id="warp_client_id" name="warp_client_id" required><br>
+        <label for="gb_to_add"  style="color: #007bff;">GB to Add:</label>
+        <input type="number" id="gb_to_add" name="gb_to_add" required><br>
+        <button type="submit">Submit</button>
+
+        <div style="text-align: center;padding: 10px;" class="name">
+            <i style="text-align: center;">Made By</i> <br>
+            <i>Mahmudul Haque Shawon</i><br>
+            <i>Kushtia Polytechnic Institute</i><br>
+            <i>Computer Science and technology</i><br>
+        </div>
+    </form>
+
+
+</body>
+</html>
